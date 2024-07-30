@@ -1,6 +1,6 @@
 <?php
 
-namespace FatihOzpolat\Param\Database\Factories;
+namespace ArdaGnsrn\Param\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 

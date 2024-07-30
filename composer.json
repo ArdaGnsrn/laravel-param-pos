@@ -1,14 +1,19 @@
 {
-    "name": "fatihozpolat/laravel-param-pos",
+    "name": "ardagnsrn/laravel-param-pos",
     "description": "Laravel Param Pos Kütüphanesi",
     "keywords": [
-        "fatihozpolat",
+        "ArdaGnsrn",
         "laravel",
         "laravel-param-pos"
     ],
-    "homepage": "https://github.com/fatihozpolat/laravel-param-pos",
+    "homepage": "https://github.com/ArdaGnsrn/laravel-param-pos",
     "license": "MIT",
     "authors": [
+        {
+            "name": "Arda Günsüren",
+            "email": "ardagunsuren@gmail.com",
+            "role": "Developer"
+        },
         {
             "name": "Fatih Özpolat",
             "email": "fozpolat33@gmail.com",
@@ -16,9 +21,9 @@
         }
     ],
     "require": {
-        "php": "^8.2",
+        "php": "^8.0",
         "spatie/laravel-package-tools": "^1.14.0",
-        "illuminate/contracts": "^10.0",
+        "illuminate/contracts": "^9.28|^10.0|^11.0",
         "ext-soap": "*",
         "ext-simplexml": "*"
     },
@@ -33,13 +38,13 @@
     },
     "autoload": {
         "psr-4": {
-            "FatihOzpolat\\Param\\": "src/",
-            "FatihOzpolat\\Param\\Database\\Factories\\": "database/factories/"
+            "ArdaGnsrn\\Param\\": "src/",
+            "ArdaGnsrn\\Param\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "FatihOzpolat\\Param\\Tests\\": "tests/",
+            "ArdaGnsrn\\Param\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -71,10 +76,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "FatihOzpolat\\Param\\ParamServiceProvider"
+                "ArdaGnsrn\\Param\\ParamServiceProvider"
             ],
             "aliases": {
-                "Param": "FatihOzpolat\\Param\\Facades\\Param"
+                "Param": "ArdaGnsrn\\Param\\Facades\\Param"
             }
         }
     },

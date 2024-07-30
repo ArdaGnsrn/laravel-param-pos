@@ -1,16 +1,16 @@
 <?php
 
-namespace FatihOzpolat\Param\Facades;
+namespace ArdaGnsrn\Param\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \FatihOzpolat\Param\Param
+ * @see \ArdaGnsrn\Param\Param
  */
 class Param extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return \FatihOzpolat\Param\Param::class;
+        return \ArdaGnsrn\Param\Param::class;
     }
 }

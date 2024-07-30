@@ -1,5 +1,5 @@
 <?php
 
-use FatihOzpolat\Param\Tests\TestCase;
+use ArdaGnsrn\Param\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);

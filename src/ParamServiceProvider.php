@@ -1,10 +1,10 @@
 <?php
 
-namespace FatihOzpolat\Param;
+namespace ArdaGnsrn\Param;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use FatihOzpolat\Param\Commands\ParamCommand;
+use ArdaGnsrn\Param\Commands\ParamCommand;
 
 class ParamServiceProvider extends PackageServiceProvider
 {

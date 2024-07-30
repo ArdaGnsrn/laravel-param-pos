@@ -1,6 +1,6 @@
 <?php
 
-// config for FatihOzpolat/Param
+// config for ArdaGnsrn/Param
 return [
     'client_code' => env('PARAM_CLIENT_CODE'),
     'client_username' => env('PARAM_CLIENT_USERNAME'),

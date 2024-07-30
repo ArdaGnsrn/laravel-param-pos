@@ -1,6 +1,6 @@
 <?php
 
-namespace FatihOzpolat\Param;
+namespace ArdaGnsrn\Param;
 
 use Exception;
 use Illuminate\Support\Carbon;

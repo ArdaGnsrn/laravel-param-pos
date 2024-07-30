@@ -1,6 +1,6 @@
 <?php
 
-namespace FatihOzpolat\Param\Commands;
+namespace ArdaGnsrn\Param\Commands;
 
 use Illuminate\Console\Command;
 
